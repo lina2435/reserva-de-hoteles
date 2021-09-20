@@ -5,6 +5,12 @@
     flex-wrap: wrap;
 }
 
+.none-hotels {
+    text-align: center;
+    font-size: 30px;
+    color: cyan;
+}
+
 @media screen and (max-width: 1000px) {
     .hotel-list {
         flex-direction: column;

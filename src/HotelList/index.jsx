@@ -39,7 +39,7 @@ export const HotelList = ({
     }
     );
     if (hotels.length === 0) {
-        return <span>Sin resultados</span>
+        return <p className="none-hotels">Sin resultados</p>
     }
     return (
         <div className="hotel-list">
