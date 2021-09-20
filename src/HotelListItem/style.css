@@ -1,0 +1,76 @@
+.hotel-item__article {
+    width: 32%;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid rgb(219, 219, 219);
+    box-shadow: rgb(199 199 199 / 71%) 5px 5px 29px 7px;
+    margin-bottom: 10px;
+}
+
+.hotel-item__img-class {
+    width: 100%;
+}
+
+.hotel-item__icon-img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #457b9d;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.hotel-item__description {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.hotel-item__price {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #457b9d;
+    border-radius: 4px;
+    display: inline-block;
+    color: white;
+}
+
+.hotel-item__button {
+    display: block;
+    background: #457b9d;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.hotel-item__icon {
+    margin-top: 25px;
+}
+
+.hotel-item__title {
+    margin-top: 4px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.hotel-item__sub-title {
+    font-size: 10px;
+}
+
+.hotel-item__parrafo {
+    text-align: justify;
+}
+
+@media screen and (max-width: 1000px) {
+    .hotel-item__article {
+        justify-content: center;
+        width: 80%;
+    }
+}

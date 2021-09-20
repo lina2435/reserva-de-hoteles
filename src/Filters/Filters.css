@@ -1,0 +1,43 @@
+.filters {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px 15px 30px;
+    background-color: #2a97e8;
+}
+
+.filters__input {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.filters__select {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .filters {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .filters__input {
+        margin-bottom: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .filters__select {
+        margin-bottom: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .btn-filter {
+        margin-left: 80px !important;
+        margin-right: 80px !important;
+    }
+}
